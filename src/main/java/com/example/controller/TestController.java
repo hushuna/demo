@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 @RestController
 public class TestController {
+
+
     @RequestMapping(value = "/test")
     public String test(){
         return "你和";
